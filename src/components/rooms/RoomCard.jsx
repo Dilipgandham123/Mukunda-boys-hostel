@@ -17,7 +17,7 @@ export default function RoomCard({ room, index }) {
         />
       </div>
       <div className="p-6">
-        <h3 className="text-xl font-semibold mb-2 text-purple-700">{room.name}</h3>
+        <h3 className="text-xl font-semibold mb-2 text-blue-600">{room.name}</h3>
         <div className="flex justify-between mb-4">
           <span className="text-gray-600">{room.capacity}</span>
           <span className="font-bold text-pink-600">{room.price}</span>
